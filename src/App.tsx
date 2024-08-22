@@ -9,11 +9,11 @@ const App: React.FC = () => {
     <div className="background">
       <Menu />
 
-      <main className="background">
+    
         <MarinaSection />
         <ExperienciaSection />
         <ProjetosSection />
-      </main>
+
 
     </div>
   );

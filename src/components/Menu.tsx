@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Menu: React.FC = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top mb-5">
       <div className="container-fluid px-5 py-2">
         <a className="navbar-brand" href="#">MyWebsite</a>
         <button
