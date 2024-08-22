@@ -1,0 +1,32 @@
+// Importa o Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Sobrescreve as variáveis de cor do Bootstrap
+$primary: #007bff; // Azul
+$secondary: #6c757d; // Cinza
+$success: #28a745; // Verde
+$danger: #dc3545; // Vermelho
+$warning: #ffc107; // Amarelo
+$info: #17a2b8; // Ciano
+$light: #f8f9fa; // Cor clara
+$dark: #343a40; // Cor escura
+
+// Importa o restante do Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+.custom-margin-top {
+    margin-top: 5rem; /* Ajuste o valor conforme necessário */
+  }
+
+  /* Define a classe para o fundo global */
+.background {
+    background-color: #9e1010; /* Cor de fundo clara, ajuste conforme necessário */
+
+    background-size: cover; /* Ajusta a imagem para cobrir o fundo */
+    background-position: center; /* Centraliza a imagem */
+    min-height: 100vh; /* Garante que o fundo cubra a altura total da viewport */
+    margin: 0;
+    padding: 0;
+  }
+  
