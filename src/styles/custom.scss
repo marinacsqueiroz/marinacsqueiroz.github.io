@@ -7,7 +7,7 @@
 
   /* Define a classe para o fundo global */
 .background {
-    background-color: #9e1010; /* Cor de fundo clara, ajuste conforme necessário */
+    background-color: #dadada; /* Cor de fundo clara, ajuste conforme necessário */
     min-height: 100vh; /* Garante que o fundo cubra a altura total da viewport */
     margin: 0;
     padding: 0;
@@ -44,3 +44,56 @@
     //   height: 110vh; // Ajuste a altura para manter a proporção
     // }
   }
+
+  
+  .inner-border-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .inner-border-card::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .inner-border-card .card-body {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  width: 20%;
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  background-color: black; /* Cor das setas */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-carousel .carousel-indicators {
+  bottom: -30px; /* Ajuste para posicionar os indicadores mais abaixo */
+}
+
+.custom-carousel .carousel-indicators li {
+  background-color: black; /* Cor dos tracinhos */
+}
+
+.custom-carousel .carousel-item {
+  padding: 10px; /* Espaçamento interno dos cards */
+
+}
+.custom-card {
+  width: 45vw; /* Ajuste o tamanho do card para 50% da largura do contêiner pai */
+  margin: 0 auto; /* Centraliza o card horizontalmente */
+}
