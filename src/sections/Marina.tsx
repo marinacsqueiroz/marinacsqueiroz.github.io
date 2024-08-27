@@ -6,12 +6,12 @@ import { colors } from "../styles/colors";
 const MarinaSection: React.FC = () => {
   return (
     <div
-      // style={{
-      //   backgroundColor: colors.secondaryColor,
-      // }}
+    // style={{
+    //   backgroundColor: colors.secondaryColor,
+    // }}
     >
-      <div className=""></div>
-      <section id="experiencia" className="py-5 px-5 bg-primary-color mt-5">
+
+      <section id="marina" className="py-5 px-5 bg-primary-color">
         <h2>How do I get here?</h2>
         <div
           style={{

@@ -58,17 +58,17 @@ const ExperienciaSection: React.FC = () => {
   ];
 
   const parallax = useParallax({
-    scale: [1, 0.7, "easeInQuad"],
+    scale: [0.5, 0.9, "easeOutBack"],
   });
 
   const parallax2 = useParallax({
-    scale: [1, 0.7, "easeInQuad"],
+    scale: [0.5, 0.9, "easeOutBack"],
   });
   const parallax3 = useParallax({
-    scale: [1, 0.7, "easeInQuad"],
+    scale: [0.5, 0.9, "easeOutBack"],
   });
   const parallax4 = useParallax({
-    scale: [1, 0.7, "easeInQuad"],
+    scale: [0.5, 0.9, "easeOutBack"],
   });
   return (
     <section id="experiencia" className="py-5 px-5 ">
@@ -76,16 +76,16 @@ const ExperienciaSection: React.FC = () => {
       <div className="container-body">
         <div ref={parallax.ref as React.RefObject<HTMLDivElement>}>
           <Col xs={12} className="timeline-item">
-            <Card className="mt-4 shadow-sm inner-border-card">
+            <Card className="mt-4 shadow-sm custom-exp-card">
               <Card.Body>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-4 subtitle">
                   {content[0].date} | {content[0].location}
                 </Card.Subtitle>
-                <Card.Title>{content[0].title}</Card.Title>
+                <Card.Title className="mb-3  fs-2">{content[0].title}</Card.Title>
                 <Card.Text>
                   <ul>
                     {content[0].description.map((desc, i) => (
-                      <li key={i}>{desc}</li>
+                      <li className="mb-1 fs-5 letter-spacing-custom" key={i}>{desc}</li>
                     ))}
                   </ul>
                 </Card.Text>
@@ -95,16 +95,16 @@ const ExperienciaSection: React.FC = () => {
         </div>
         <div ref={parallax2.ref as React.RefObject<HTMLDivElement>}>
           <Col xs={12} className="timeline-item">
-            <Card className="mt-4 shadow-sm inner-border-card">
+            <Card className="mt-4 shadow-sm custom-exp-card">
               <Card.Body>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-4 subtitle">
                   {content[1].date} | {content[1].location}
                 </Card.Subtitle>
-                <Card.Title>{content[1].title}</Card.Title>
+                <Card.Title className="mb-3  fs-2">{content[1].title}</Card.Title>
                 <Card.Text>
                   <ul>
                     {content[1].description.map((desc, i) => (
-                      <li key={i}>{desc}</li>
+                      <li className="mb-1 fs-5 letter-spacing-custom" key={i}>{desc}</li>
                     ))}
                   </ul>
                 </Card.Text>
@@ -114,16 +114,16 @@ const ExperienciaSection: React.FC = () => {
         </div>
         <div ref={parallax3.ref as React.RefObject<HTMLDivElement>}>
           <Col xs={12} className="timeline-item">
-            <Card className="mt-4 shadow-sm inner-border-card">
+            <Card className="mt-4 shadow-sm custom-exp-card">
               <Card.Body>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-4 subtitle">
                   {content[2].date} | {content[2].location}
                 </Card.Subtitle>
-                <Card.Title>{content[2].title}</Card.Title>
+                <Card.Title className="mb-3  fs-2">{content[2].title}</Card.Title>
                 <Card.Text>
                   <ul>
                     {content[2].description.map((desc, i) => (
-                      <li key={i}>{desc}</li>
+                      <li className="mb-1  fs-5 letter-spacing-custom" key={i}>{desc}</li>
                     ))}
                   </ul>
                 </Card.Text>
@@ -133,16 +133,16 @@ const ExperienciaSection: React.FC = () => {
         </div>
         <div ref={parallax4.ref as React.RefObject<HTMLDivElement>}>
           <Col xs={12} className="timeline-item">
-            <Card className="mt-4 shadow-sm inner-border-card">
+            <Card className="mt-4 shadow-sm custom-exp-card">
               <Card.Body>
-                <Card.Subtitle className="mb-2 text-muted">
+                <Card.Subtitle className="mb-4 subtitle">
                   {content[3].date} | {content[3].location}
                 </Card.Subtitle>
-                <Card.Title>{content[3].title}</Card.Title>
+                <Card.Title className="mb-3  fs-2">{content[3].title}</Card.Title>
                 <Card.Text>
                   <ul>
                     {content[3].description.map((desc, i) => (
-                      <li key={i}>{desc}</li>
+                      <li className="mb-1 fs-5 letter-spacing-custom" key={i}>{desc}</li>
                     ))}
                   </ul>
                 </Card.Text>

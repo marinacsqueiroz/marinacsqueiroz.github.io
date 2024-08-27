@@ -1,99 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
 
-.custom-margin-top {
-    margin-top: 4rem; /* Ajuste o valor conforme necessário */
-  }
 
-  /* Define a classe para o fundo global */
+
+.custom-menu {
+  background-color: #080808;
+  border-style: inset;
+  border-color: #3F683C;
+}
+
+.custom-exp-card {
+  background-color: #1d1c1c;
+  color: #ffffff;
+  padding: 1.5vw;
+  border-radius: 1vw;
+  border-style: inset;
+  border-color: #3F683C;
+  font-family: 'Pathway Gothic One', sans-serif;
+  
+
+}
+
+.subtitle {
+  color: #bbbbbb;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2.5vh;
+  border-bottom: 2px solid #727171;
+  
+}
+
+.custom-font-menu {
+  color: #ffffff;
+  font-size: 3vh;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  margin-right: 2vw;
+}
+
+.custom-name-menu {
+  color: #ffffff;
+  font-size: 4vh;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  margin-right: 2vw;
+}
+
+.custom-font-sub-menu {
+  color: #8d8a8a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 3vh;
+
+}
+
+.vertical-bar {
+  width: 1px;
+  height: 30px;
+  background-color: rgb(119, 114, 114);
+  margin: 0 1vw;
+}
+
+.custom-subtitle-experience {
+  color: #ffffff;
+}
+
+.letter-spacing-custom {
+  letter-spacing: 0.15vh; /* Ajuste o valor conforme necessário */
+}
+
+/* Define a classe para o fundo global */
 .background {
-    background-color: #dadada; /* Cor de fundo clara, ajuste conforme necessário */
-    min-height: 100vh; /* Garante que o fundo cubra a altura total da viewport */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .image-path-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px; // Ajuste conforme necessário
-  }
-  
-  .connector {
-    display: block;
-  }
+  background-color: #080808;
+  /* Cor de fundo clara, ajuste conforme necessário */
+  min-height: 100vh;
+  /* Garante que o fundo cubra a altura total da viewport */
+  margin: 0;
+  padding: 5vw;
+}
 
-  h2 {
-    font-size: 55px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-weight: bold;
-    color: #424242;
-    border-bottom: 2px solid #3F683C; /* Linha embaixo */
-  padding-bottom: 10px; /* Espaço entre o texto e a linha */
-  margin-bottom: 20px; /* Espaço abaixo da linha */
-  }
+.image-path-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; // Ajuste conforme necessário
+}
 
-  .responsive-image {
-    width: 80vw;
-    height: 110vh;
-  
-    // @media (max-width: 768px) {
-    //   content: url('../assests/pathMobile.png'); // Substitua pelo caminho da imagem móvel
-    //   width: 70vw; // Ajuste conforme necessário
-    //   height: 110vh; // Ajuste a altura para manter a proporção
-    // }
-  }
+.connector {
+  display: block;
+}
 
-  
-  .inner-border-card {
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .inner-border-card::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    border: 2px solid #28a745;
-    border-radius: 8px;
-    z-index: 1;
-  }
-  
-  .inner-border-card .card-body {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .custom-carousel .carousel-control-prev,
+.custom-text{
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #ffffff;
+  font-size: 1.5vw;
+}
+h2 {
+  font-size: 55px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 2px solid #727171;
+  padding-bottom: 1vh;
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+}
+
+.responsive-image {
+  width: 80vw;
+  height: 110vh;
+
+  // @media (max-width: 768px) {
+  //   content: url('../assests/pathMobile.png'); // Substitua pelo caminho da imagem móvel
+  //   width: 70vw; // Ajuste conforme necessário
+  //   height: 110vh; // Ajuste a altura para manter a proporção
+  // }
+}
+
+
+
+.custom-carousel .carousel-control-prev,
 .custom-carousel .carousel-control-next {
   width: 20%;
 }
 
 .custom-carousel .carousel-control-prev-icon,
 .custom-carousel .carousel-control-next-icon {
-  background-color: black; /* Cor das setas */
+  background-color: black;
+  /* Cor das setas */
   border-radius: 50%;
   padding: 10px;
 }
 
 .custom-carousel .carousel-indicators {
-  bottom: -30px; /* Ajuste para posicionar os indicadores mais abaixo */
+  bottom: -30px;
+  /* Ajuste para posicionar os indicadores mais abaixo */
 }
 
 .custom-carousel .carousel-indicators li {
-  background-color: black; /* Cor dos tracinhos */
+  background-color: black;
+  /* Cor dos tracinhos */
 }
 
 .custom-carousel .carousel-item {
-  padding: 10px; /* Espaçamento interno dos cards */
+  padding: 10px;
+  /* Espaçamento interno dos cards */
 
 }
+
 .custom-card {
-  width: 45vw; /* Ajuste o tamanho do card para 50% da largura do contêiner pai */
-  margin: 0 auto; /* Centraliza o card horizontalmente */
+  width: 30vw;
+  /* Ajuste o tamanho do card para 50% da largura do contêiner pai */
+  margin: 0 auto;
+  /* Centraliza o card horizontalmente */
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center; /* Alinha o texto e o carrossel no centro verticalmente */
+}
+
+.carousel-text {
+  flex: 0 0 45%; /* Define a largura da área de texto */
+  padding-right: 1vw; /* Espaçamento entre o texto e o carrossel */
+}
+
+.carousel-wrapper {
+  flex: 1; /* O carrossel ocupa o restante do espaço disponível */
 }
