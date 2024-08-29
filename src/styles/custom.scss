@@ -17,7 +17,7 @@
   border-style: inset;
   border-color: #3F683C;
   font-family: 'Pathway Gothic One', sans-serif;
-  
+
 
 }
 
@@ -26,7 +26,7 @@
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 2.5vh;
   border-bottom: 2px solid #727171;
-  
+
 }
 
 .custom-font-menu {
@@ -64,7 +64,8 @@
 }
 
 .letter-spacing-custom {
-  letter-spacing: 0.15vh; /* Ajuste o valor conforme necessário */
+  letter-spacing: 0.15vh;
+  /* Ajuste o valor conforme necessário */
 }
 
 /* Define a classe para o fundo global */
@@ -88,11 +89,12 @@
   display: block;
 }
 
-.custom-text{
+.custom-text {
   font-family: 'Pathway Gothic One', sans-serif;
   color: #ffffff;
   font-size: 1.5vw;
 }
+
 h2 {
   font-size: 55px;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -148,21 +150,53 @@ h2 {
 
 .custom-card {
   width: 30vw;
-  /* Ajuste o tamanho do card para 50% da largura do contêiner pai */
+  font-size: 3vh;
   margin: 0 auto;
-  /* Centraliza o card horizontalmente */
+  background-color: #1d1c1c;
+  color: #ffffff;
+  padding: 1.5vw;
+  border-radius: 1vw;
+  border-style: inset;
+  border-color: #3F683C;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
+
+.custom-card-title {
+  font-size: 3vh;
+  color: #ffffff;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.custom-card:hover {
+  background-color: #6d6c6c;
+  color: #1d1c1c;
+  /* Pode mudar a cor ao passar o mouse, se desejar */
+}
+
+
+
+a {
+  text-decoration: none;
+  /* Remove a linha azul de todos os links */
+  color: inherit;
+  /* Mantém a cor original do texto */
+}
+
 
 .carousel-container {
   display: flex;
-  align-items: center; /* Alinha o texto e o carrossel no centro verticalmente */
+  align-items: center;
+  /* Alinha o texto e o carrossel no centro verticalmente */
 }
 
 .carousel-text {
-  flex: 0 0 45%; /* Define a largura da área de texto */
-  padding-right: 1vw; /* Espaçamento entre o texto e o carrossel */
+  flex: 0 0 45%;
+  /* Define a largura da área de texto */
+  padding-right: 1vw;
+  /* Espaçamento entre o texto e o carrossel */
 }
 
 .carousel-wrapper {
-  flex: 1; /* O carrossel ocupa o restante do espaço disponível */
+  flex: 1;
+  /* O carrossel ocupa o restante do espaço disponível */
 }
