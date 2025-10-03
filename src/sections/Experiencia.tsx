@@ -129,25 +129,7 @@ const ExperienciaSection: React.FC = () => {
             </Card>
           </Col>
         </div>
-        <div ref={parallax4.ref as React.RefObject<HTMLDivElement>}>
-          <Col xs={12} className="timeline-item">
-            <Card className="mt-4 shadow-sm custom-exp-card">
-              <Card.Body>
-                <Card.Subtitle className="mb-4 subtitle">
-                  {content[3].date} | {content[3].location}
-                </Card.Subtitle>
-                <Card.Title className="mb-3  fs-2">{content[3].title}</Card.Title>
-                <Card.Text>
-                  <ul>
-                    {content[3].description.map((desc, i) => (
-                      <li className="mb-1 fs-5 letter-spacing-custom" key={i}>{desc}</li>
-                    ))}
-                  </ul>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </div>
+
       </div>
     </section>
   );
