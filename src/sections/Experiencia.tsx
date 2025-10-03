@@ -65,9 +65,6 @@ const ExperienciaSection: React.FC = () => {
   const parallax3 = useParallax({
     scale: [0.5, 0.9, "easeOutBack"],
   });
-  const parallax4 = useParallax({
-    scale: [0.5, 0.9, "easeOutBack"],
-  });
   return (
     <section id="experiencia" className="py-5 px-5 ">
       <h2>Work Experience</h2>
