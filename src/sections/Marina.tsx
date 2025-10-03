@@ -12,7 +12,8 @@ const MarinaSection: React.FC = () => {
     >
 
       <section id="marina" className="py-5 px-5 bg-primary-color">
-        <h2>How do I get here?</h2>
+        <h2 className="typewriter">How do I get here?</h2>
+
         <div
           style={{
             display: "flex",

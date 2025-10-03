@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
         textAlign: "center",
         padding: "20px",
         marginTop: "40px",
-        background: "#f5f5f5",
+        background: "#080808",
       }}
     >
       <a
