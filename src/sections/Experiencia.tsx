@@ -12,49 +12,47 @@ interface Experience {
 const ExperienciaSection: React.FC = () => {
   const content: Experience[] = [
     {
-      date: "02/07/2022 – 10/01/2022",
+      date: "May 2023 – Aug 2025",
       location: "Brasília, Brazil",
-      title: "SOFTWARE DEVELOPMENT INTERN | GRUPO ORION",
+      title: "DATA SCIENTIST & ANALYTICS | GRUPO ORION",
       description: [
-        "Front-end web development (React, Javascript, Typescript and CSS). Web pages developed for clients. Dashboards, login screen, menu, filters. Frontend interaction with API and backend.",
-        "Machine learning development, analysis and data processing (tensorflow, Python). Prediction for data obtained with company sensors.",
-        "Skills developed: proactivity, group work, leadership, organization and punctuality (delivery within the established deadlines).",
+        "Processed and analyzed large-scale datasets with PostgreSQL, Pandas, NumPy, and SQLAlchemy, improving query performance and reducing latency by 35%.",
+        "Developed and maintained data pipelines to support predictive analytics projects, ensuring consistency and scalability of data workflows.",
+        "Built and deployed forecasting and classification models with scikit-learn, PyTorch, and FastAI, improving accuracy of business predictions by 30%.",
+        "Automated ingestion and reporting workflows with Python and Flask APIs, reducing manual work for stakeholders.",
+        "Conducted exploratory data analysis with PostgreSQL, Python, Pandas, SQLAlchemy to support business insights.",
+        "Worked within Agile/Scrum teams, collaborating closely with engineers and product managers to deliver data-driven features.",
+        "Focused on Continuous Improvement, staying updated with industry trends and best practices to enhance data processes and technologies."
       ],
     },
     {
-      date: "10/01/2022 – 02/28/2023",
+      date: "Jul 2022 – May 2023",
       location: "Brasília, Brazil",
-      title: "JUNIOR DATA SCIENTIST | GRUPO ORION",
+      title: "JUNIOR DATA SCIENTIST & ANALYTICS | GRUPO ORION",
       description: [
-        "Actively sought new technology trends and implemented process automation to streamline workflows and improve efficiency.",
-        "Developed an AI using Fast.ai for predicting consumables in a building.",
-        "Utilized Python programming language for project development and implementation.",
+        "Processed and analyzed large-scale datadsets with PostgreSQL, Pandas, NumPy, and SQLAlchemy, improving query performance and reducing latency by 35%.",
+        "Developed and maintained data pipelines to support predictive analytics projects, ensuring consistency and scalability of data workflows.",
+        "Built and deployed forecasting and classification models with scikit-learn, PyTorch, and FastAI, improving accuracy of business predictions by 30%.",
+        "Automated ingestion and reporting workflows with Python and Flask APIs, reducing manual work for stakeholders.",
+        "Conducted exploratory data analysis with PostgreSQL, Python, Pandas, SQLAlchemy to support business insights.",
+        "Worked within Agile/Scrum teams, collaborating closely with engineers and product managers to deliver data-driven features.",
+        "Focused on Continuous Improvement, staying updated with industry trends and best practices to enhance data processes and technologies",
       ],
     },
     {
-      date: "02/28/2023 – CURRENT",
+      date: "Feb 2022 – Jul 2022",
       location: "Brasília, Brazil",
-      title: "DATA SCIENTIST | GRUPO ORION",
+      title: "DATA SCIENCE & ANALYTICS INTERN | GRUPO ORION",
       description: [
-        "Responsible for researching new applications of AI for data study.",
-        "Conduct mathematical analysis of data to derive insights and inform decision-making processes.",
-        "Lead and manage a team of data analysts, overseeing data-related projects and ensuring their successful execution.",
-        "Continuously explore advancements in AI and implement innovative solutions to enhance data analysis capabilities.",
-        "Collaborate with cross-functional teams to integrate data-driven strategies into various aspects of the business.",
+        "Assisted in data preparation, ETL workflows, and quality checks for reporting and ML applications.",
+        "Explored and tested the best AI models for predictions, improving accuracy by 70% by the end of the internship, ensuring an error rate between 5% and 20% during training.",
+        "Migrated and processed historical data to improve model training.",
+        "Conducted exploratory data analysis to support business planning.",
+        "Implemented basic version control with Git/Azure DevOps, ensuring reproducibility of pipelines.",
       ],
     },
-    {
-      date: "05/01/2023 – CURRENT",
-      location: "Brasília, Brazil",
-      title: "SENIOR MANAGER OF NEW TECHNOLOGIES | GRUPO ORION",
-      description: [
-        "Oversee the development of software and hardware products, as well as operational and data analysis aspects.",
-        "Lead the product development lifecycle, from ideation to execution, ensuring alignment with organizational goals and market demands.",
-        "Manage cross-functional teams to drive innovation and deliver high-quality products on time and within budget.",
-        "Implement data-driven approaches to optimize operations and enhance decision-making processes across the organization.",
-        "Continuously assess emerging technologies and trends to identify opportunities for product enhancement and operational improvement.",
-      ],
-    },
+
+
   ];
 
   const parallax = useParallax({

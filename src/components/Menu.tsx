@@ -5,7 +5,7 @@ const Menu: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light custom-menu fixed-top mb-5">
       <div className="container-fluid px-5 py-2">
-        <div className="custom-name-menu">Marina Queiroz</div>
+        <div className="custom-name-menu">Marina Lucchesi</div>
         <div className="custom-font-sub-menu">Mechatronic Engineer</div>
         <div className="vertical-bar"></div>
         <div className="custom-font-sub-menu">Data Scientist</div>
