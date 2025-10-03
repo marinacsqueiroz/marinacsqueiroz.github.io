@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { useParallax } from "react-scroll-parallax";
+import "../styles/custom.scss"; // Ajuste o caminho se necessário
 
 type Stat = { label: string; value: string; note?: string };
 
@@ -86,10 +87,10 @@ const ExperienceCard: React.FC<{ item: Experience }> = ({ item }) => {
             {item.achievements?.length ? (
               <>
                 <hr style={{ opacity: 0.15 }} />
-                <h6 className="mb-2" style={{ letterSpacing: ".5px" }}>Achievements</h6>
+                <h5 className="mb-2" style={{ letterSpacing: ".5px" }}>Achievements</h5>
                 <ul className="exp-bullets">
                   {item.achievements.map((a, i) => (
-                    <li className="mb-1 fs-6 bullet" key={i}>{a}</li>
+                    <li className="mb-1 fs-5 bullet" key={i}>{a}</li>
                   ))}
                 </ul>
               </>
